@@ -11,7 +11,7 @@ public class ProductValidator {
         }
 
         if (product.getPrice() < 10) {
-            return "Price less than £10";
+            return "Price less than £10 ";
         }
 
         return null;
